@@ -12,6 +12,9 @@ description = "Extends load-environ-typed to get info right from Kubernetes API"
 readme = "README.md"
 license = {file = "LICENSE.txt" }
 requires-python = ">=3.8"
+dependencies = [
+  "kubernetes",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
